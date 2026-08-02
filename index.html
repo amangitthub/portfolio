@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aman Kumar | Full Stack PHP Developer</title>
+   <meta name="description" content="Aman Kumar — Full Stack PHP Developer & Team Lead. 3+ years building scalable web apps with PHP, Laravel, REST APIs, Razorpay, Google Maps API and Firebase.">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <!-- Left Sidebar - Fixed -->
+   <div class="left-sidebar">
+      <div>
+         <div class="status-line">
+            <span class="status-dot"></span>
+            server status: available for work
+         </div>
+
+         <h1>Aman Kumar</h1>
+
+         <p class="terminal-role" aria-label="Full Stack PHP Developer & Team Lead">
+            <span class="prompt">&gt;</span><span id="terminalRoleText"></span><span class="cursor"></span>
+         </p>
+
+         <p class="description">
+            Full Stack PHP Developer &amp; Team Lead with 3+ years shipping scalable web
+            apps across e-commerce, fintech, education, logistics and real estate —
+            PHP, Laravel, REST APIs, and end-to-end deployment.
+         </p>
+
+         <ul class="nav-menu">
+            <li><a href="#about" class="active">about</a></li>
+            <li><a href="#skills">skills</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#education">education</a></li>
+            <li><a href="#projects">projects</a></li>
+            <li><a href="#resume">resume</a></li>
+         </ul>
+      </div>
+
+      <div class="social-links">
+         <a href="https://github.com/amangitthub" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+         <a href="mailto:amankumar879179@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+         <a href="tel:+918791796505" aria-label="Phone"><i class="bi bi-telephone-fill"></i></a>
+      </div>
+   </div>
+
+   <!-- Right Content - Scrollable -->
+   <div class="right-content">
+
+      <!-- About Section -->
+      <section id="about" class="content-section">
+         <span class="eyebrow" data-command="cat about.md"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+         <h2 class="section-title">About</h2>
+         <a class="text-decoration-none" href="mailto:amankumar879179@gmail.com">amankumar879179@gmail.com</a>
+
+         <div class="about-content">
+            <p>
+               I'm Aman — a Full Stack PHP Developer and Team Lead with 3+ years of experience designing, building, and deploying scalable web applications across e-commerce, fintech, education, logistics, and professional services.
+            </p>
+            <p>
+               I work hands-on with PHP, Laravel, and modern frontend technologies, along with REST API development, third-party payment integrations (Razorpay), Google Maps API, Firebase push notifications, and mobile app console management.
+            </p>
+            <p>
+               <strong>What I do</strong> — beyond writing code, I lead a development team end-to-end: sprint planning, task delegation, deployment, and client communication, delivering high-quality products on time.
+            </p>
+         </div>
+
+         <div class="stat-strip">
+            <div class="stat-item">
+               <span class="stat-num">3+</span>
+               <span class="stat-label">years experience</span>
+            </div>
+            <div class="stat-item">
+               <span class="stat-num">10+</span>
+               <span class="stat-label">live production apps</span>
+            </div>
+            <div class="stat-item">
+               <span class="stat-num">6+</span>
+               <span class="stat-label">industries served</span>
+            </div>
+            <div class="stat-item">
+               <span class="stat-num">1</span>
+               <span class="stat-label">team led as lead dev</span>
+            </div>
+         </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="content-section">
+         <div class="skills-header">
+            <span class="eyebrow" data-command="ls skills.json"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+            <h2 class="section-title">Skills</h2>
+         </div>
+
+         <!-- Category Filter Buttons -->
+         <div class="category-buttons">
+            <button class="category-btn active" data-category="all">All</button>
+            <button class="category-btn" data-category="frontend">Frontend</button>
+            <button class="category-btn" data-category="backend">Backend</button>
+            <button class="category-btn" data-category="other">Other</button>
+            <button class="category-btn" data-category="learning">Learning</button>
+         </div>
+
+         <!-- Work Stack Section -->
+         <div class="work-stack-header">
+            <h3 class="work-stack-title">Work Stack</h3>
+         </div>
+
+         <div class="skills-grid" id="skillsGrid">
+            <div class="skill-item" data-category="frontend">
+               <i class="fa-brands fa-html5"></i>
+               <span>HTML</span>
+            </div>
+            <div class="skill-item" data-category="frontend">
+               <i class="fa-brands fa-css3-alt"></i>
+               <span>CSS</span>
+            </div>
+            <div class="skill-item" data-category="frontend">
+               <i class="fa-brands fa-js"></i>
+               <span>JavaScript</span>
+            </div>
+            <div class="skill-item" data-category="frontend">
+               <img src="img/jq.png" alt="jQuery" width="28">
+               <span>jQuery</span>
+            </div>
+            <div class="skill-item" data-category="backend">
+               <i class="fa-brands fa-php"></i>
+               <span>PHP</span>
+            </div>
+            <div class="skill-item" data-category="backend">
+               <i class="fa-brands fa-laravel"></i>
+               <span>Laravel</span>
+            </div>
+            <div class="skill-item" data-category="backend">
+               <img src="img/ajax.png" alt="Ajax" width="28">
+               <span>Ajax</span>
+            </div>
+            <div class="skill-item" data-category="backend">
+               <i class="fa-brands fa-node-js"></i>
+               <span>Node.js (APIs)</span>
+            </div>
+            <div class="skill-item" data-category="learning">
+               <i class="fa-brands fa-react"></i>
+               <span>React.js</span>
+            </div>
+            <div class="skill-item" data-category="frontend">
+               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
+                  <title>Tailwind CSS</title>
+                  <path d="M12.001,4.8c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 C13.666,10.618,15.027,12,18.001,12c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C16.337,6.182,14.976,4.8,12.001,4.8z M6.001,12c-3.2,0-5.2,1.6-6,4.8c1.2-1.6,2.6-2.2,4.2-1.8c0.913,0.228,1.565,0.89,2.288,1.624 c1.177,1.194,2.538,2.576,5.512,2.576c3.2,0,5.2-1.6,6-4.8c-1.2,1.6-2.6,2.2-4.2,1.8c-0.913-0.228-1.565-0.89-2.288-1.624 C10.337,13.382,8.976,12,6.001,12z"></path>
+               </svg>
+               <span>Tailwind CSS</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <i class="fa-brands fa-github"></i>
+               <span>Git &amp; GitHub</span>
+            </div>
+            <div class="skill-item" data-category="backend">
+               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" viewBox="0 0 24 24">
+                  <title>MySQL</title>
+                  <path d="M16.405 5.501c-.115 0-.193.014-.274.033v.013h.014c.054.104.146.18.214.273.054.107.1.214.154.32l.014-.015c.094-.066.14-.172.14-.333-.04-.047-.046-.094-.08-.14-.04-.067-.126-.1-.18-.153zM5.77 18.695h-.927a50.854 50.854 0 00-.27-4.41h-.008l-1.41 4.41H2.45l-1.4-4.41h-.01a72.892 72.892 0 00-.195 4.41H0c.055-1.966.192-3.81.41-5.53h1.15l1.335 4.064h.008l1.347-4.064h1.095c.242 2.015.384 3.86.428 5.53zm4.017-4.08c-.378 2.045-.876 3.533-1.492 4.46-.482.716-1.01 1.073-1.583 1.073-.153 0-.34-.046-.566-.138v-.494c.11.017.24.026.386.026.268 0 .483-.075.647-.222.197-.18.295-.382.295-.605 0-.155-.077-.47-.23-.944L6.23 14.615h.91l.727 2.36c.164.536.233.91.205 1.123.4-1.064.678-2.227.835-3.483zm12.325 4.08h-2.63v-5.53h.885v4.85h1.745zm-3.32.135l-1.016-.5c.09-.076.177-.158.255-.25.433-.506.648-1.258.648-2.253 0-1.83-.718-2.746-2.155-2.746-.704 0-1.254.232-1.65.697-.43.508-.646 1.256-.646 2.245 0 .972.19 1.686.574 2.14.35.41.877.615 1.583.615.264 0 .506-.033.725-.098l1.325.772.36-.622zM15.5 17.588c-.225-.36-.337-.94-.337-1.736 0-1.393.424-2.09 1.27-2.09.443 0 .77.167.977.5.224.362.336.936.336 1.723 0 1.404-.424 2.108-1.27 2.108-.445 0-.77-.167-.978-.5zm-1.658-.425c0 .47-.172.856-.516 1.156-.344.3-.803.45-1.384.45-.543 0-1.064-.172-1.573-.515l.237-.476c.438.22.833.328 1.19.328.332 0 .593-.073.783-.22a.754.754 0 00.3-.615c0-.33-.23-.61-.648-.845-.388-.213-1.163-.657-1.163-.657-.422-.307-.632-.636-.632-1.177 0-.45.157-.81.47-1.085.315-.278.72-.415 1.22-.415.512 0 .98.136 1.4.41l-.213.476a2.726 2.726 0 00-1.064-.23c-.283 0-.502.068-.654.206a.685.685 0 00-.248.524c0 .328.234.61.666.85.393.215 1.187.67 1.187.67.433.305.648.63.648 1.168zm9.382-5.852c-.535-.014-.95.04-1.297.188-.1.04-.26.04-.274.167.055.053.063.14.11.214.08.134.218.313.346.407.14.11.28.216.427.31.26.16.555.255.81.416.145.094.293.213.44.313.073.05.12.14.214.172v-.02c-.046-.06-.06-.147-.105-.214-.067-.067-.134-.127-.2-.193a3.223 3.223 0 00-.695-.675c-.214-.146-.682-.35-.77-.595l-.013-.014c.146-.013.32-.066.46-.106.227-.06.435-.047.67-.106.106-.027.213-.06.32-.094v-.06c-.12-.12-.21-.283-.334-.395a8.867 8.867 0 00-1.104-.823c-.21-.134-.476-.22-.697-.334-.08-.04-.214-.06-.26-.127-.12-.146-.19-.34-.275-.514a17.69 17.69 0 01-.547-1.163c-.12-.262-.193-.523-.34-.763-.69-1.137-1.437-1.826-2.586-2.5-.247-.14-.543-.2-.856-.274-.167-.008-.334-.02-.5-.027-.11-.047-.216-.174-.31-.235-.38-.24-1.364-.76-1.644-.072-.18.434.267.862.422 1.082.115.153.26.328.34.5.047.116.06.235.107.356.106.294.207.622.347.897.073.14.153.287.247.413.054.073.146.107.167.227-.094.136-.1.334-.154.5-.24.757-.146 1.693.194 2.25.107.166.362.534.703.393.3-.12.234-.5.32-.835.02-.08.007-.133.048-.187v.015c.094.188.188.367.274.555.206.328.566.668.867.895.16.12.287.328.487.402v-.02h-.015c-.043-.058-.1-.086-.154-.133a3.445 3.445 0 01-.35-.4 8.76 8.76 0 01-.747-1.218c-.11-.21-.202-.436-.29-.643-.04-.08-.04-.2-.107-.24-.1.146-.247.273-.32.453-.127.288-.14.642-.188 1.01-.027.007-.014 0-.027.014-.214-.052-.287-.274-.367-.46-.2-.475-.233-1.238-.06-1.785.047-.14.247-.582.167-.716-.042-.127-.174-.2-.247-.303a2.478 2.478 0 01-.24-.427c-.16-.374-.24-.788-.414-1.162-.08-.173-.22-.354-.334-.513-.127-.18-.267-.307-.368-.52-.033-.073-.08-.194-.027-.274.014-.054.042-.075.094-.09.088-.072.335.022.422.062.247.1.455.194.662.334.094.066.195.193.315.226h.14c.214.047.455.014.655.073.355.114.675.28.962.46a5.953 5.953 0 012.085 2.286c.08.154.115.295.188.455.14.33.313.663.455.982.14.315.275.636.476.897.1.14.502.213.682.286.133.06.34.115.46.188.23.14.454.3.67.454.11.076.443.243.463.378z"></path>
+               </svg>
+               <span>MySQL</span>
+            </div>
+            <div class="skill-item" data-category="learning">
+               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" viewBox="0 0 24 24">
+                  <title>MongoDB</title>
+                  <path d="M17.193 9.555c-1.264-5.58-4.252-7.414-4.573-8.115-.28-.394-.53-.954-.735-1.44-.036.495-.055.685-.523 1.184-.723.566-4.438 3.682-4.74 10.02-.282 5.912 4.27 9.435 4.888 9.884l.07.05A73.49 73.49 0 0111.91 24h.481c.114-1.032.284-2.056.51-3.07.417-.296.604-.463.85-.693a11.342 11.342 0 003.639-8.464c.01-.814-.103-1.662-.197-2.218zm-5.336 8.195s0-8.291.275-8.29c.213 0 .49 10.695.49 10.695-.381-.045-.765-1.76-.765-2.405z"></path>
+               </svg>
+               <span>MongoDB</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <img src="img/api.png" alt="REST APIs" width="28">
+               <span>REST APIs</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <img src="img/host.png" alt="Cloud Hosting" width="28">
+               <span>Cloud Hosting</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <img src="img/vps.png" alt="VPS Hosting" width="28">
+               <span>VPS Hosting</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <i class="bi bi-credit-card-2-front-fill"></i>
+               <span>Razorpay</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <i class="bi bi-geo-alt-fill"></i>
+               <span>Google Maps API</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <i class="fa-solid fa-fire"></i>
+               <span>Firebase</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <i class="fa-brands fa-google-play"></i>
+               <span>Play Console</span>
+            </div>
+            <div class="skill-item" data-category="other">
+               <img src="img/cons.png" alt="Google Console" width="28">
+               <span>Google Console</span>
+            </div>
+         </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="content-section">
+         <span class="eyebrow" data-command="tail -f experience.log"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+         <h2 class="section-title">Experience</h2>
+
+         <div class="experience-card">
+            <div class="experience-year">10 Mar 2025 — Present</div>
+            <h3 class="experience-title">Senior PHP Developer &amp; Team Lead, Tulyarth DigiWeb</h3>
+            <ul class="experience-bullets">
+               <li>Led and managed a development team — task delegation, sprint planning, and ensuring on-time project delivery</li>
+               <li>Developed and maintained robust web applications using PHP and the Laravel framework</li>
+               <li>Managed end-to-end deployment pipeline including staging, production releases, and post-launch support</li>
+               <li>Administered web hosting on Hostinger — domain configuration, VPS server management, and SSL setup</li>
+               <li>Managed Google Play Console — published, monitored, and updated Android applications</li>
+               <li>Acted as primary liaison between clients and the development team for seamless delivery</li>
+            </ul>
+            <div class="tech-tags">
+               <span class="tech-tag">PHP</span>
+               <span class="tech-tag">Laravel</span>
+               <span class="tech-tag">MySQL</span>
+               <span class="tech-tag">VPS / Hostinger</span>
+               <span class="tech-tag">Google Play Console</span>
+               <span class="tech-tag">Team Leadership</span>
+            </div>
+         </div>
+
+         <div class="experience-card">
+            <div class="experience-year">Jul 2024 — Feb 2025</div>
+            <h3 class="experience-title">PHP Developer, Itarchs</h3>
+            <ul class="experience-bullets">
+               <li>Developed feature-rich web applications using Core PHP and the Laravel framework</li>
+               <li>Built and integrated REST APIs, designed database schemas, and implemented backend business logic in MySQL</li>
+               <li>Collaborated in an agile team environment to deliver client-facing projects on schedule</li>
+            </ul>
+            <div class="tech-tags">
+               <span class="tech-tag">Core PHP</span>
+               <span class="tech-tag">Laravel</span>
+               <span class="tech-tag">REST APIs</span>
+               <span class="tech-tag">MySQL</span>
+            </div>
+         </div>
+
+         <div class="experience-card">
+            <div class="experience-year">2 May 2023 — 6 May 2024</div>
+            <h3 class="experience-title">Junior Web Developer (Trainee + Work), Infonix Services Technology</h3>
+            <ul class="experience-bullets">
+               <li>Received hands-on training and worked on live projects using HTML, CSS, Bootstrap, and Core PHP</li>
+               <li>Built responsive and dynamic web pages by converting design concepts into functional interfaces</li>
+               <li>Collaborated with the team to deliver client projects meeting quality and timeline expectations</li>
+            </ul>
+            <div class="tech-tags">
+               <span class="tech-tag">HTML</span>
+               <span class="tech-tag">CSS</span>
+               <span class="tech-tag">Bootstrap</span>
+               <span class="tech-tag">Core PHP</span>
+            </div>
+         </div>
+      </section>
+
+      <!-- Education Section -->
+      <section id="education" class="content-section">
+         <span class="eyebrow" data-command="cat education.yml"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+         <h2 class="section-title">Education</h2>
+
+         <div class="experience-item">
+            <div class="experience-header">
+               <h3 class="job-title">Bachelor of Computer Applications (BCA) <span class="badge-current">In Progress</span></h3>
+               <span class="job-duration">Mar 2025 — Present</span>
+            </div>
+            <p class="company-name">Lateral Entry · 5th Semester completed</p>
+            <p class="text-white">Currently pursuing — joined via lateral entry after Diploma</p>
+         </div>
+
+         <div class="experience-item">
+            <div class="experience-header">
+               <h3 class="job-title">Government Polytechnic Dehradun</h3>
+               <span class="job-duration">Passout — 2023</span>
+            </div>
+            <p class="company-name">Diploma in Computer Science Engineering</p>
+            <p class="text-white">Percentage — 77%</p>
+         </div>
+
+         <div class="experience-item">
+            <div class="experience-header">
+               <h3 class="job-title">Government Inter College Miyanwala</h3>
+               <span class="job-duration">Passout — 2020</span>
+            </div>
+            <p class="company-name">Intermediate, Science (Physics, Chemistry, Maths)</p>
+            <p class="text-white">Percentage — 70%</p>
+         </div>
+
+         <div class="experience-item">
+            <div class="experience-header">
+               <h3 class="job-title">Government Inter College Miyanwala</h3>
+               <span class="job-duration">Passout — 2018</span>
+            </div>
+            <p class="company-name">High School, Science</p>
+            <p class="text-white">Percentage — 75.8%</p>
+         </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="content-section">
+         <span class="eyebrow" data-command="ls -la projects/"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+         <h2 class="section-title">Projects</h2>
+
+         <div class="projects-grid">
+
+          
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Taxabide <a href="https://taxabide.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://taxabide.com/" target="_blank" rel="noopener">https://taxabide.com/</a>
+                        <p class="project-desc">
+                           A full-featured taxation services platform with a client-facing portal for purchasing GST, ITR, and compliance services. Integrated Razorpay plus cash payment options, and built an in-app real-time chat system between clients and tax consultants.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">HTML</span>
+                           <span class="tech-tag">CSS</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Bootstrap</span>
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">Ajax</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/taxabide1.png?w=500" alt="Taxabide screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/taxabide2.png?w=500" alt="Taxabide screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/taxabide3.png?w=500" alt="Taxabide screenshot 3" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/taxabide4.png?w=500" alt="Taxabide screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/taxabide5.png?w=500" alt="Taxabide screenshot 5" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/taxabide6.png?w=500" alt="Taxabide screenshot 6" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Owles — Online Education Platform <a href="https://owles.app/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://owles.app/" target="_blank" rel="noopener">https://owles.app/</a>
+                        <p class="project-desc">
+                           A comprehensive e-learning platform with separate Teacher and Student panels, featuring online lectures, attendance tracking, teacher management, and real-time interaction for live teaching sessions.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Ajax</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                     <!-- <div class="col-md-3">
+                        <div class="project-icon-panel">
+                           <i class="bi bi-mortarboard-fill"></i>
+                        </div>
+                     </div> -->
+
+                      <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/owles1.png?w=500" alt="owles screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/owles2.png?w=500" alt="owles screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/owles3.png?w=500" alt="owles screenshot 3" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/owles4.png?w=500" alt="owles screenshot 4" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Doonabide — Property &amp; Business Dashboard <a href="https://doonabide.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://doonabide.com/" target="_blank" rel="noopener">https://doonabide.com/</a>
+                        <p class="project-desc">
+                           A comprehensive multi-role dashboard for managing property sales, business listings, and worker accounts — with an automated commission calculation system, worker performance tracking, and Firebase push notifications for real-time alerts.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Firebase</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                      <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/doonabide1.png?w=500" alt="doonabide screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide2.png?w=500" alt="doonabide screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide3.png?w=500" alt="doonabide screenshot 3" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide4.png?w=500" alt="doonabide screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide5.png?w=500" alt="doonabide screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide6.png?w=500" alt="doonabide screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide7.png?w=500" alt="doonabide screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/doonabide8.png?w=500" alt="doonabide screenshot 4" loading="lazy"></div>
+                           </div>
+                        </div>
+                        </div>
+
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Anshika Developers — Real Estate Portal <a href="https://anshikadevelopers.in/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://anshikadevelopers.in/" target="_blank" rel="noopener">https://anshikadevelopers.in/</a>
+                        <p class="project-desc">
+                           A full-featured real estate portal with dynamic property listings, filtering, and detailed property pages. Built a query/inquiry system connecting buyers directly with agents, an admin dashboard for lead management, and Firebase push alerts for new inquiries.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Firebase</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/anshika1.png?w=500" alt="anshika screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/anshika2.png?w=500" alt="anshika screenshot 2" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+              <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Rydooo — Ride Booking App <a href="https://rydooo.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://rydooo.com/" target="_blank" rel="noopener">https://rydooo.com/</a>
+                        <p class="project-desc">
+                           A multi-panel ride booking platform for Dehradun covering Admin, User, and Captain (Driver) panels. Integrated Google Maps API via Google Cloud Console for live tracking, route calculation, and distance estimation, with Node.js APIs powering real-time ride matching and status updates.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">Node.js APIs</span>
+                           <span class="tech-tag">Google Maps API</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/rydooo1.png?w=500" alt="rydooo screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/rydooo2.png?w=500" alt="rydooo screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/rydooo3.png?w=500" alt="rydooo screenshot 3" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Anu Makeover Studio <a href="https://anumakeoverstudio.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://anumakeoverstudio.com/" target="_blank" rel="noopener">https://anumakeoverstudio.com/</a>
+                        <p class="project-desc">
+                           A dynamic salon website with service listings, gallery, and appointment booking, backed by a custom CMS-style admin panel for easy content and booking management.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Bootstrap</span>
+                           <span class="tech-tag">Ajax</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/anu1.png" alt="Anu Makeover Studio screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/anu2.png?w=500" alt="Anu Makeover Studio screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/anu3.png?w=500" alt="Anu Makeover Studio screenshot 3" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/anu4.png?w=500" alt="Anu Makeover Studio screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/anu5.png?w=500" alt="Anu Makeover Studio screenshot 5" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Mithas Ka Ghar — Online Sweet Shop <a href="https://mithaskaghar.online/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://mithaskaghar.online/" target="_blank" rel="noopener">https://mithaskaghar.online/</a>
+                        <p class="project-desc">
+                           A full e-commerce platform for an online sweet shop with a product catalog, cart, and order management — dynamic product listing, search filters, order tracking, and an admin panel for inventory management.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Ajax</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/sweet1.png?w=500" alt="sweet screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/sweet2.png?w=500" alt="sweet screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/sweet3.png?w=500" alt="sweet screenshot 3" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Sea7 Maritime — Corporate Website <a href="https://sea7maritime.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://sea7maritime.com/" target="_blank" rel="noopener">https://sea7maritime.com/</a>
+                        <p class="project-desc">
+                           A professional corporate website for a maritime services company, with dynamic content management powered by a custom admin panel for easy content updates.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">Laravel</span>
+                           <span class="tech-tag">Bootstrap</span>
+                           <span class="tech-tag">MySQL</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/sea1.png?w=500" alt="sea screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/sea2.png?w=500" alt="sea screenshot 2" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="project-card">
+               <div class="container-fluid">
+                  <div class="row">
+                     <div class="col-md-9">
+                        <h3 class="project-title">Loanbazzi <a href="https://loanbazzi.com/" target="_blank" rel="noopener"><i class="bi bi-box-arrow-up-right"></i></a></h3>
+                        <a href="https://loanbazzi.com/" target="_blank" rel="noopener">https://loanbazzi.com/</a>
+                        <p class="project-desc">
+                           A loan services web platform with a dual-panel system for Admin and Users — loan application workflows, document submission, and status tracking for end users.
+                        </p>
+                        <div class="tech-tags">
+                           <span class="tech-tag">PHP</span>
+                           <span class="tech-tag">jQuery</span>
+                           <span class="tech-tag">Bootstrap</span>
+                           <span class="tech-tag">Ajax</span>
+                        </div>
+                     </div>
+                     <div class="col-md-3">
+                        <div class="gallery-wrapper">
+                           <div class="gallery-grid">
+                              <div class="gallery-item"><img src="img/loan1.png" alt="Loanbazzi screenshot 1" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/loan2.png?w=500" alt="Loanbazzi screenshot 2" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/loan3.png?w=500" alt="Loanbazzi screenshot 3" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/loan4.png?w=500" alt="Loanbazzi screenshot 4" loading="lazy"></div>
+                              <div class="gallery-item"><img src="img/loan5.png?w=500" alt="Loanbazzi screenshot 5" loading="lazy"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <!-- Resume Section -->
+      <section id="resume" class="content-section">
+         <span class="eyebrow" data-command="./download-resume.sh"><span class="prompt-sign">$</span><span class="typed-cmd"></span><span class="cmd-cursor"></span></span>
+         <h2 class="section-title">Resume</h2>
+
+         <div class="resume-panel">
+            <div class="resume-file-row">
+               <div class="resume-file-info">
+                  <i class="bi bi-file-earmark-text-fill"></i>
+                  <div>
+                     <span class="resume-file-name">Aman_Kumar_Resume.pdf</span>
+                     <span class="resume-file-meta">Full Stack PHP Developer &amp; Team Lead</span>
+                  </div>
+               </div>
+               <div class="resume-actions">
+                  <!-- <a href="res/Aman_Kumar_Resume.pdf" download class="btn-resume btn-resume-primary">
+                     <i class="bi bi-download"></i> Download
+                  </a> -->
+                  <a href="res/Aman_Kumar_Resume.pdf" target="_blank" rel="noopener" class="btn-resume btn-resume-ghost">
+                     <i class="bi bi-eye"></i> View
+                  </a>
+               </div>
+            </div>
+
+            <div class="resume-highlights">
+               <h4 class="resume-highlights-title">Key Highlights</h4>
+               <ul class="experience-bullets">
+                  <li>3+ years of experience delivering 10+ live production web applications across diverse industries</li>
+                  <li>Integrated third-party services including Razorpay, Google Maps API, Firebase Notifications, and Node.js microservices</li>
+                  <li>Experienced in multi-role panel systems — Admin, User, Captain, Teacher, Worker, and Client dashboards</li>
+                  <li>Hands-on experience with the full deployment cycle — VPS setup, domain management, SSL, and app store publishing</li>
+                  <li>Actively expanding expertise in React.js and MongoDB for modern full-stack development</li>
+               </ul>
+            </div>
+         </div>
+      </section>
+
+      <!-- Footer -->
+      <footer style="padding-top:0;">
+         <p style="color:#6b7385; text-align:center;">
+            Built with ❤ using HTML, CSS &amp; JS · © 2025 Aman Kumar
+         </p>
+      </footer>
+   </div>
+
+   <!-- Image Popup Modal -->
+   <div class="image-popup" id="imagePopup">
+      <div class="popup-content">
+         <button class="close-btn" id="closeBtn" aria-label="Close"><i class="bi bi-x-lg"></i></button>
+         <button class="nav-btn prev-btn" id="prevBtn" aria-label="Previous image"><i class="bi bi-chevron-left"></i></button>
+         <img src="" alt="Project screenshot preview" class="popup-image" id="popupImage">
+         <button class="nav-btn next-btn" id="nextBtn" aria-label="Next image"><i class="bi bi-chevron-right"></i></button>
+         <div class="image-counter" id="imageCounter"></div>
+      </div>
+   </div>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="script.js"></script>
+</body>
+</html>
